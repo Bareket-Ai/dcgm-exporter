@@ -23,8 +23,8 @@ DCGM_FI_DEV_GPU_TEMP_CELSIUS, gauge, GPU temperature (in C).
 
 # Power
 DCGM_FI_DEV_BOARD_POWER_WATTS, gauge, Power draw (in W).
-# DCGM_FI_DEV_BOARD_POWER_LIMIT_REQUESTED_WATTS, gauge, Configured board power limit (in W).
-# DCGM_FI_DEV_BOARD_POWER_LIMIT_ENFORCED_WATTS,  gauge, Effective board power limit enforced by the driver after all limiters (in W).
+DCGM_FI_DEV_BOARD_POWER_LIMIT_REQUESTED_WATTS, gauge, Configured board power limit (in W).
+DCGM_FI_DEV_BOARD_POWER_LIMIT_ENFORCED_WATTS,  gauge, Effective board power limit enforced by the driver after all limiters (in W).
 # DCGM_FI_DEV_GPU_PSTATE,                        gauge, Performance state from 0 (highest) to 15.
 DCGM_FI_DEV_GPU_ENERGY_JOULES_TOTAL, counter, GPU energy consumed since the driver was reloaded in joules.
 # DCGM_FI_DEV_FAN_SPEED_RATIO,                       gauge, Fan speed as a ratio of its maximum speed.

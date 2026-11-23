@@ -66,8 +66,8 @@ var profilingTotalFields = []string{
 // the listed type, help text and commented-out state.
 func TestShippedMetricMetadata(t *testing.T) {
 	expected := map[string]metricMetadata{
-		powerLimitRequestedField: {promType: "gauge", help: powerLimitRequestedHelp, commented: true},
-		powerLimitEnforcedField:  {promType: "gauge", help: powerLimitEnforcedHelp, commented: true},
+		powerLimitRequestedField: {promType: "gauge", help: powerLimitRequestedHelp},
+		powerLimitEnforcedField:  {promType: "gauge", help: powerLimitEnforcedHelp},
 		pageRetiredPendingField:  {promType: "gauge", help: pageRetiredPendingHelp, commented: true},
 		nvlinkThroughputField:    {promType: "gauge", help: nvlinkThroughputHelp},
 		framebufferCapacityField: {promType: "gauge", help: framebufferCapacityHelp},
